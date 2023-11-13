@@ -15,10 +15,7 @@ arrayList.Add(false);
 
 Console.WriteLine("Contenuto dell'ArrayList:");
 
-for (int i = 0; i < arrayList.Count; i++)
-{
-    Console.WriteLine(arrayList[i]);
-}
+foreach (var i in arrayList) Console.WriteLine(i);
 
 /*gli elementi vengono stampati senza un tipo specifico, 
  * mostrando semplicemente il loro valore.
